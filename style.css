@@ -1,0 +1,347 @@
+@import '/_reset.css';
+@import "slick-carousel/slick/slick";
+
+html,
+body {
+	height: 100%;
+    background-color: bisque;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.header{
+    background-color: #EEDE52;
+    
+}
+
+.header_item{
+    font-size: 28px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    list-style: none
+}
+
+.header_items{
+    font-family:'Montserrat';
+    font-weight: 400;
+
+}
+
+.header_items-logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+.start{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 0px;
+    display: flex;
+    
+    
+}
+
+.start_bg{
+    width: 550px;
+    height: 350px;
+}
+
+.start_img{
+    width: 550px;
+    height: 350px;
+}
+.top__slider-text{
+    justify-content: right;
+    width: 500px;
+    text-align: right;
+    font-family: 'Montserrat';
+    line-height: 34px;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.jobs{
+    display: flex;
+}
+.jobs_text{
+    width: 570px;
+    font-family: 'Montserrat';
+    line-height: 34px;
+    font-size: 40px;
+    height: 340px;
+    margin-top: 80px;
+}
+
+.jobs_images-list{
+    display: grid;
+    list-style: none;
+    height: 340px;
+    max-height: 340px;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 10px;
+}
+
+
+
+.jobs_images-img{
+    width: 180px;
+    height: 180px;
+}
+
+.yslyg{
+    width: auto;
+}
+.yslyg_text{
+    font-family: 'Montserrat';
+    line-height: 34px;
+    font-size: 40px;
+}
+.yslyg_list{
+    align-items: center;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(5,2fr);
+    justify-content: space-between;
+    max-height: 500px;
+    grid-gap: 10px;
+}
+
+.yslyg_item{
+    max-width: 180px;
+}
+
+.yslyg_item-name{
+    font-family: "Montserrat";
+    text-align: center;
+    height: 30px;
+    align-items: center;
+}
+
+.product{
+    width: auto;
+    margin-bottom: 100px;
+}
+.product_text{
+    font-family: 'Montserrat';
+    line-height: 34px;
+    font-size: 40px;
+}
+.product_list{
+    align-items: center;
+    margin: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(5,2fr);
+    justify-content: space-between;
+    max-height: 500px;
+    grid-gap: 10px;
+}
+
+.product_item{
+    max-width: 180px;
+}
+
+.product_item-name{
+    font-family: "Montserrat";
+    text-align: center;
+    height: 30px;
+    align-items: center;
+}
+
+.product_item-img{
+    width: 180px;
+    height: 180px;
+}
+
+.yslyg_item-img{
+    width: 180px;
+    height: 180px;
+}
+
+@media(max-width:1140px){
+    .start_img{
+        width: 400px;
+        height: 350px;
+    }
+    .top__slider-text{
+        font-size: 27px;
+    }
+    .yslyg_item{
+        max-width: 150px;
+    }
+    .yslyg_item-img{
+        width: 150px;
+        height: 150px;
+    }
+    .jobs_images-img{
+        width: 150px;
+        height: 150px;
+    }
+    .jobs_text{
+        font-size: 27px;
+    }
+    .product_item{
+        max-width: 150px;
+    }
+    .product_item-img{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
+@media(max-width:900px){
+    .product_list{
+        align-items: center;
+        display: grid;
+        list-style: none;
+        grid-template-columns: repeat(2,2fr);
+        justify-content: space-between;
+        max-height: 800px;
+        grid-gap: 10px;
+    }
+    .yslyg_list{
+        align-items: center;
+        display: grid;
+        list-style: none;
+        grid-template-columns: repeat(2,2fr);
+        justify-content: space-between;
+        max-height: 800px;
+        grid-gap: 10px;
+    }
+   
+    .start_img{
+        width: 350px;
+        height: 300px;
+    }
+    .top__slider-text{
+        font-size: 20px;
+    }
+    .yslyg_item-img{
+        width: 180px;
+        height: 180px;
+    }
+    .jobs_images-img{
+        width: 125px;
+        height: 125px;
+    }
+    .jobs_text{
+        font-size: 20px;
+    }
+    .product_item{
+        max-width: 180px;
+    }
+    .product_item-img{
+        width: 180px;
+        height: 180px;
+    }
+    .yslyg_list{
+        max-width: 900px;
+    }
+}
+
+@media(max-width:800px){
+    .header_item{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:700px){
+    .start_img{
+        width: 300px;
+        height: 300px;
+    }
+    .top__slider-text{
+        font-size: 14px;
+    }
+    .jobs_text{
+        font-size: 16px;
+    }
+    
+}
+
+@media(max-width:600px){
+    .start_img{
+        width: 200px;
+        height: 200px;
+    }
+    .top__slider-text{
+        font-size: 14px;
+        width: 700px;
+        margin: 0;
+    }
+    .yslyg_item{
+        max-width: 125px;
+    }
+    .yslyg_item-img{
+        width: 125px;
+        height: 125px;
+    }
+    .jobs_images-img{
+        width: 100px;
+        height: 100px;
+    }
+    .jobs_text{
+        font-size: 14px;
+        width: 700px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .product_item{
+        max-width: 125px;
+    }
+    .product_item-img{
+        width: 125px;
+        height: 125px;
+    }
+    .start_bg{
+        height:  250px;
+        width: 200px;
+    }
+    .header_item{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px){
+    .header_items-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .header_item{
+        height: 80px;
+    }
+    .jobs_images-img{
+        width: 80px;
+        height: 80px;
+
+    }
+    .jobs_images-item{
+        height: 85px;
+    }
+    .jobs_images-list{
+        max-height: 200px;
+    }
+    .jobs_text{
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .top__slider-text{
+        font-size: 12px;
+    }
+    .jobs{
+        max-height: 250px;
+    }
+}
