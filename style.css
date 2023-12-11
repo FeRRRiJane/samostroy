@@ -345,3 +345,61 @@ body {
         max-height: 250px;
     }
 }
+
+
+@media(max-width:400px){
+    .header_item{
+        font-size: 10px;
+    }
+    .top__slider-text{
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .jobs_text{
+        line-height: 16px;
+        font-size: 10px;
+        padding-top: 30px;
+    }
+    .jobs_images-list{
+        padding: 5px;
+        
+    }
+    .jobs_images-img{
+        width: 60px;
+        height: 60px;
+    }
+    .start_img{
+        width: 150px;
+        height: 150px;
+    }
+    .start_bg{
+        height:  150px;
+        width: 200px;
+    }
+    .yslyg_item-name{
+        height: 20px;
+        font-size: 12px;
+    }
+    .product_item-name{
+        height: 20px;
+        font-size: 12px;
+    }
+    .yslyg_text{
+        margin-top: 0;
+    }
+    .product_text{
+        margin-top: 10px;
+    }
+    .jobs_images{
+        max-height: 200px;
+    }
+    .jobs_images-item{
+        height: 60px;
+    }
+    .karta{
+        height: 200px;
+    }
+    .header_items-logo{
+        margin: 0;
+    }
+}
